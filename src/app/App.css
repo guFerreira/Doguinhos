@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.dog {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+}
+
+.button-search {
+  background-color: #1a5bbc;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  align-self: center;
+  display: flex;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1a5bbc;
+  color: white;
+  font-size: 28px;
+  border-radius: 30px;
+  margin: 6px 12px;
+}
