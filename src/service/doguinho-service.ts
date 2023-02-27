@@ -8,10 +8,7 @@ interface IDog {
   }
 
 
-export function getDogs(){
-    axios.get<IDog>(API_URL).then(response => {
-        return {
-            image: response.data.message
-        }
-    })
+export async function getDogs(){
+    const response = await axios.get<IDog>(API_URL);
+    return response.data.message
 }
